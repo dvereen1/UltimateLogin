@@ -1,6 +1,6 @@
 # Ultimate Login
 
-A login and registration system which will serves as the foundation for future projects which require user accounts.
+A login and registration system which will serve as the foundation for future projects which require user accounts.
 
 [Demo here](https://darianvereen.com/HTML_PHP/projects/ultimLogin/Register/register.php)
 
@@ -18,7 +18,6 @@ A login and registration system which will serves as the foundation for future p
 |----------|--------------|------|-----|---------|----------------|
 | username | varchar(255) | No   |     | NULL    |                |
 | password | varchar(255) | No   |     | NULL    |                |
-|
 
 ### Users Table
 
@@ -41,7 +40,7 @@ Throughout this project, you'll notice some file includes and references which b
 * [allProjectsModal.js](https://github.com/dvereen1/PHP-JS-CSS-Includes/blob/main/allProjectsModal.js)
 * [formValidator.js](https://github.com/dvereen1/PHP-JS-CSS-Includes/blob/main/formValidator.js)
 * [headNoNav.php](https://github.com/dvereen1/PHP-JS-CSS-Includes/blob/main/headNoNav.php)
-* [projectInfoModal.php](https://github.com/dvereen1/PHP-JS-CSS-Includes/blob/main/projectInforModal.php)
+* [projectInfoModal.php](https://github.com/dvereen1/PHP-JS-CSS-Includes/blob/main/projectInfoModal.php)
 * [DBConnection.php](https://github.com/dvereen1/PHP-JS-CSS-Includes/blob/main/DBConnection.php)
 * [FormValidator.php](https://github.com/dvereen1/PHP-JS-CSS-Includes/blob/main/FormValidator.php)
 
