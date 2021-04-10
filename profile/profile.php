@@ -3,10 +3,11 @@
     include_once("headNoNav.php");
     
     if(!isset($_SESSION["authorized"])){
-        header("location: ../Login/login.php");
+        header("location: /ultimLogin/login");
         exit;
     }
     ?>
+    <base href = "/portfolio/ultimLogin/profile/">
     <link rel = "stylesheet" href = "profile.css">
     </head>
     <body>
@@ -16,7 +17,7 @@
                     <h2>Ultim Login</h2>
                     <nav >
                         <ul>
-                            <li><a href="#"><i class="fas fa-cog"></i></a>
+                            <li><a href="/ultimLogin/profile"><i class="fas fa-cog"></i></a>
                                 <ul class = "dropdown-content">
                                     <li><a href = "logout.php">Log Out</a></li>
                                 </ul>

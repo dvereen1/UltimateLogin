@@ -69,7 +69,7 @@ loginBtn.addEventListener("click", event => {
                     break;
                     case "Valid Password":
                         //redirect to homepage;
-                        location.replace("../Profile/profile.php");
+                        location.replace("/ultimLogin/profile");
                     break;
                 }
             }else if(data.dbConnError || data.queryError || data.prepStatError){// data... values are defined in a php database connection class

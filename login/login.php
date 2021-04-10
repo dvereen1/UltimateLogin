@@ -1,5 +1,6 @@
 <?php include_once('headNoNav.php');?> 
         <title>Ultimate Login</title>
+        <base href = "/portfolio/ultimLogin/login/">
         <link rel = "stylesheet" href = "login.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap" rel="stylesheet">
@@ -9,7 +10,7 @@
             <nav>
                 <a href ="/#portfolio-" class = "nav-logo" id = "idLogo" href = "/#portfolio-">Ultim Login</a>
                 <ul class = "nav-menu" id = "navMenu">
-                    <li class = "nav-link"><a href = "../Register/register.php">Register</a></li>
+                    <li class = "nav-link"><a href = "/ultimLogin/register">Register</a></li>
                     <li class = "nav-link"><a href = "/#portfolio-">Portfolio</a></li>
                     <li class = "nav-link"><a class = "code-btn" href = "https://github.com/dvereen1/UltimateLogin">View Code</a></li>
                 </ul>
@@ -37,7 +38,7 @@
                 <div class = "reg-option">
                         <h3>Uninitiated?</h3>
                         <p>Create an account to get started. Once inducted stay connected with presentations of the latest info.</p>
-                        <a class = "reg-btn" href = "../Register/register.php">Register</a>
+                        <a class = "reg-btn" href = "/ultimLogin/register">Register</a>
                 </div>
 
                 <svg id="Group_7" class = "register-graphic-svg" data-name="Group 7" xmlns="http://www.w3.org/2000/svg" width="535.477" height="372.559" viewBox="0 0 535.477 372.559">

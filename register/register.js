@@ -110,7 +110,7 @@ subBtn.addEventListener("click", event => {
                         break;
                     case "Success":
                          //No errors encountered. Redirect to login page.
-                         window.location.href = "../Login/login.php";
+                         window.location.href = "/ultimLogin/login";
                         break;
                 }
              }else if(data.dbConnError || data.queryError || data.prepStatError){// values defined in a php database connection class

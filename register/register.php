@@ -1,5 +1,6 @@
 
 <?php include_once('headNoNav.php');?> 
+        <base href = "/portfolio/ultimLogin/register/">
         <title>Ultimate Login</title>
         <link rel = "stylesheet" href = "register.css">
         <link rel = "stylesheet" href = "/CSS/allProjectsModal.css">
@@ -14,7 +15,7 @@
             <nav>
                 <a href ="/#portfolio-" class = "nav-logo" id = "idLogo" >Ultim Login</a>
                 <ul class = "nav-menu" id = "navMenu">
-                    <li class = "nav-link"><a href = "../Login/login.php">Login</a></li>
+                    <li class = "nav-link"><a href = "/ultimLogin/login">Login</a></li>
                     <li class = "nav-link"><a href = "/#portfolio-">Portfolio</a></li>
                     <li class = "nav-link"><a href = "https://github.com/dvereen1/UltimateLogin">View Code</a></li>
                 </ul>
@@ -80,7 +81,7 @@
                     <p>
                         Log in to stay up to date, change settings, and access your information.
                     </p>
-                    <a class = "login-btn" href = "../Login/login.php">Login</a>
+                    <a class = "login-btn" href = "/ultimLogin/login">Login</a>
                 </div>
                 
                 <svg class = "login-graphic-svg" id="Group_11" data-name="Group 11" xmlns="http://www.w3.org/2000/svg" width="493.606" height="366.084" viewBox="0 0 493.606 366.084">
